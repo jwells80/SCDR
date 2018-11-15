@@ -1,0 +1,94 @@
+/*html, body{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}*/
+body {
+    
+    background: #fff;
+    background-image: url(../images/cross.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 14px;
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+}
+/*li {
+    list-style: none;
+    margin: 0;
+    border: none;
+}*/
+header{
+    padding: 10px;
+    background: rgba(255,255,255,.2);
+    font-size: 1.3em;
+    text-align: center;
+}
+blockquote{
+    padding-left: 5px;
+}
+.theme{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+article p {
+    padding-left: 5px;
+}
+.emp {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.3em;
+}
+aside{
+    padding-left: 10px
+}
+.speakerimg {
+    display: inline-block;
+    float: left;
+    padding-right: 5px;
+    border-radius: 90px;
+}
+.registration{
+    text-align: center;
+}
+blockquote>footer{
+    color:white;
+}
+.speaker{
+    font-size: 1.5em;
+    font-variant: small-caps;
+}
+header>img{
+    float: left;
+    border-radius: 110px;
+    margin-right: 0px;
+    padding: 5px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+
+@media  screen and (max-width: 600px) {
+    main{
+        display: block;
+    }
+    header>img{
+        float: none;
+        width:150px;
+    }
+}
