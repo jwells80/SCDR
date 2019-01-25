@@ -55,7 +55,7 @@ aside{
     padding-left: 10px
 }
 .speakerimg {
-    display: inline-block;
+    /* display: inline-block; */
     float: left;
     padding-right: 5px;
     border-radius: 90px;
@@ -82,7 +82,9 @@ a{
 a:hover{
     color: white;
 }
-
+footer {
+    margin-left: 10px;
+}
 @media  screen and (max-width: 600px) {
     main{
         display: block;
